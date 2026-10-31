@@ -3,7 +3,7 @@
 **Did your AI coding tool leak your API keys?** Find out in 10 seconds.
 
 ```bash
-npx github:Shreyastacky/ship-safe-check
+npx github:stackdrawn/ship-safe-check
 ```
 
 Run it in your project folder. It reads your code locally. Nothing is uploaded and nothing leaves your machine.
@@ -28,10 +28,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: npx github:Shreyastacky/ship-safe-check
+      - run: npx github:stackdrawn/ship-safe-check
 ```
 
-Options: `npx github:Shreyastacky/ship-safe-check path/to/app`, `--json` for machine-readable output.
+Options: `npx github:stackdrawn/ship-safe-check path/to/app`, `--json` for machine-readable output.
 
 ## Found something?
 

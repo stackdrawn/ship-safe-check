@@ -3,11 +3,38 @@
   "version": "1.0.0",
   "description": "Free, local check for leaked API keys in AI-built (vibe-coded) apps: secrets in browser code, public env vars, committed .env files.",
   "type": "module",
-  "bin": { "ship-safe-check": "bin/ship-safe-check.mjs" },
-  "files": ["bin", "README.md", "LICENSE"],
-  "engines": { "node": ">=18" },
-  "keywords": ["security", "secrets", "api-keys", "supabase", "nextjs", "vite", "vibe-coding", "cursor", "lovable", "scanner", "cli"],
+  "bin": {
+    "ship-safe-check": "bin/ship-safe-check.mjs"
+  },
+  "files": [
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "security",
+    "secrets",
+    "api-keys",
+    "supabase",
+    "nextjs",
+    "vite",
+    "vibe-coding",
+    "cursor",
+    "lovable",
+    "scanner",
+    "cli"
+  ],
   "homepage": "https://ship-safe-kit.pages.dev",
   "author": "Stack, Drawn (https://x.com/stackdrawn)",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stackdrawn/ship-safe-check.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stackdrawn/ship-safe-check/issues"
+  }
 }
